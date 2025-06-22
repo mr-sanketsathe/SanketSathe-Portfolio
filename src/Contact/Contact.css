@@ -1,0 +1,146 @@
+.Contact-section{
+    width:100%;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:5%;
+   
+}
+
+.contact-heading{
+    font-size:4rem;
+    font-weight:100;
+    font-style: italic;
+}
+.contact-box{
+    display: flex;
+    justify-content: center;
+    width:80%;
+    height:60%;
+    padding:2rem;
+    gap:2rem;
+}
+.Contact-details{
+    width:30%;
+    height:100%;
+    padding-left: 1rem;
+    
+    
+
+}
+.contact-details-heading{
+    width: 90%;
+    font-size:3rem;
+    text-align:start;
+   background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin:1rem 0.5rem;
+
+}
+
+.current-status{
+    font-size:1rem;
+    width:90%;
+    text-align:start;
+    opacity: 0.8;
+    line-height: 1.4;
+    margin:1rem 0.5rem;
+}
+
+.email{
+    font-size:1rem;
+    width:90%;
+    text-align:start;
+    opacity: 0.8;
+    line-height: 1.4;
+    margin:1rem 0.5rem;
+}
+
+.mobile-no{
+     font-size:1rem;
+    width:90%;
+    text-align:start;
+    opacity: 0.8;
+    line-height: 1.4;
+    margin:1rem 0.5rem;
+}
+
+.location{
+     font-size:1rem;
+    width:90%;
+    text-align:start;
+    opacity: 0.8;
+    line-height: 1.4;
+    margin:1rem 0.5rem;
+}
+
+
+
+.Contact-details p i{
+    font-size:1.5rem;
+    margin-right:0.5rem;
+    opacity: 0.8;
+}
+
+.Contact-form{
+    width: 40%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    padding: 1rem;
+   
+}
+.Contact-form label{
+    font-size:1rem;
+    opacity: 0.6;
+    color:#D8D8D8;
+    margin-top:0.7rem;
+    
+}
+
+.Contact-form input{
+    width:90%;
+    height:10%;
+    border:none;
+    font-size:1rem;
+    background-color: #32323C;
+    color:#A0A0A0;
+    border-radius:10px;
+    opacity: 0.7;
+    margin-top:0.5rem;
+    padding:0.2rem;
+}
+
+.Contact-form textarea{
+    border:none;
+    font-size:1rem;
+    background-color: #32323C;
+    color:#A0A0A0;
+    border-radius:10px;
+    opacity: 0.7;
+    margin-top:0.5rem;
+    padding: 0.2rem;
+}
+
+.Submit{
+    width:23%;
+    height: 10%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 10px;
+    margin-top:1rem;
+    margin-left: 0.4rem;
+    background: linear-gradient(264deg,#DF8908 -5.09%,#B415FF 106.28%);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.Submit:hover{
+    transform: scale(1.05);
+}
+
+

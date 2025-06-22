@@ -1,0 +1,124 @@
+.Skills-section{
+    width:100%;
+    height:100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    gap:2rem;
+}
+
+.heading{
+    position: absolute;
+    top:10%;
+
+}
+.skills{
+    display: flex;
+    gap:30px;
+    width:90%;
+    height:50%;
+    padding:1rem;
+    
+}
+.programing-lang{
+    width:50%;
+    height: 100%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius:3rem;
+   
+
+}
+
+.title{
+    font-size:1.5rem;
+    margin-top:1.5rem;
+    margin-left:1.5rem;
+    text-align: center;
+    font-weight:300;
+   
+}
+.lang-list{
+    list-style: none;
+    margin-left:4rem;
+    font-size: 1.2rem;
+    
+}
+.lang-list li{
+    position: relative;
+    font-weight: 200;
+    opacity: 0.7;
+    line-height: 1.5;
+  
+}
+
+.Web-dev{
+    width:50%;
+    height:100%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius:3rem;
+
+}
+.web-dev-list{
+    list-style: none;
+     margin-left:4rem;
+    font-size: 1.2rem;
+    
+}
+.web-dev-list li{
+    position: relative;
+    font-weight: 200;
+    opacity: 0.7;
+    line-height: 1.4;
+    
+}
+.progress-bar {
+    width:60%;
+    height: 0.5rem;
+    position:relative;
+    border-radius: 10px;
+    border: 1px solid white;   
+
+}
+
+.progress-bar::after{
+    content: "";
+    width:0%;
+    height: 100%;
+    background: linear-gradient(267deg, #DA7C25 0.36%,#B932E1 102.05%); 
+    position: absolute;
+    border-radius: 10px;
+    animation: Progress 1s ease-in forwards;
+}
+@keyframes Progress {
+    0%{
+        width:0%;
+    }100%{
+        width:70%;
+    }
+    
+}
+
+.tools{
+     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    width:50%;
+    height:20%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.tools-list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    margin:1rem;
+}
+
+.icons{
+    width:3rem;
+    height:3rem;  
+}

@@ -1,0 +1,48 @@
+.Education-section{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+    padding-top:15vh;
+}
+.Education-list{
+    width:60%;
+    height:80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+}
+.Education-list::before{
+    content:'';
+    width:1px;
+    height: 100vh;
+    border: 1px solid white;
+    position: absolute;
+    left:10%;
+    opacity: 0.5;
+
+}
+.Education{
+    width:60%;
+    height: 30%;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    padding:0.5rem 2rem;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    position: relative;
+}
+
+.percentage{
+    position: absolute;
+    right: 10%;
+    bottom:10%;
+    font-weight: 700;
+}
+
+
