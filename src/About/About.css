@@ -23,14 +23,8 @@
     position: relative;
 }
 
-
-.title{
-    text-shadow: 1px 1px 2px black;
-    
-}
 .self-desc{
     width:80%;
-    margin:2rem;
     font-size:1rem;
     opacity: 0.8;
     line-height:1.5;
@@ -55,4 +49,69 @@
 .social-media i:hover{
     transform: scale(1.05);
     opacity: 1;
+}
+@media(max-width:768px){
+    .About{
+        flex-direction: column;
+        align-items: center; 
+        padding:2%; 
+    }
+    .profile{
+        width:70%;
+        height:40%;
+        border-radius: 50%;
+
+    }
+
+    .About-me{
+        width:70%;
+        height:70%;
+        display: flex;
+        align-items:start;
+        justify-content: center;
+
+    
+    }
+    .self-desc{
+        width:100%;
+        font-size:1rem;
+       
+        opacity: 0.8;
+        margin:0.5rem;
+
+    }
+    .social-media{
+        opacity: 0;
+    }
+
+}
+
+@media((min-width:768px) and (max-width:1024px)){
+    .About{
+        flex-direction: column;
+    }
+    .profile{
+       width:40%;
+       height:30%;
+       border-radius: 50%;
+    }
+    .About-me{
+        width:80%;
+        height:30%;
+        display: flex;
+        justify-content: center;
+    }
+    .self-desc{
+        width:80%;
+        font-size:1.3rem;
+        opacity: 0.8;
+        line-height:1.4;
+        text-align: justify;
+    }
+   .social-media{
+        opacity: 1;
+        bottom:10%;
+    }
+
+
 }

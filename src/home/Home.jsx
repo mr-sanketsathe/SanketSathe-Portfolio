@@ -5,11 +5,11 @@ function Home() {
     return (
         <div id='Home' className="Home">
             <h1 className="greet">Hello,<br />I'm <span className='name'>Sanket Sathe</span></h1>
-            <p className="des">Aspiring Full Stack Developer | Enthusiastic About Web Technologies & AI</p>
+            <p className="home-desc">Aspiring Full Stack Developer | Enthusiastic About Web Technologies & AI</p>
 
-            <div  className="home-connect">Connect with me</div>
+            <div  className="home-connect"><a href="#Contact">Connect with me</a></div>
 
-            <span className='home-arrow'><i class="fa-solid fa-angles-down"></i></span>
+            <span className='home-arrow'><i className="fa-solid fa-angles-down"></i></span>
         </div>
     );
 }

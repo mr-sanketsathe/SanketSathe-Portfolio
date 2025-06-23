@@ -11,10 +11,10 @@ function About() {
                     I enjoy building interactive, responsive websites and applications using modern technologies like React, Node.js, and MongoDB. I'm fascinated by the intersection of AI and the web, and I’m actively learning how to blend the two to create smarter, more efficient applications.
                     A curious and self-motivated developer, I love exploring new technologies, solving problems, and turning ideas into real-world solutions.</p>
                 <ul className="social-media">
-                    <li><i class="fa-brands fa-linkedin"></i></li>
-                    <li><i class="fa-brands fa-square-github"></i></li>
-                    <li><i class="fa-brands fa-square-instagram"></i></li>
-                    <li><i class="fa-brands fa-square-facebook"></i></li>
+                    <li><i className="fa-brands fa-linkedin"></i></li>
+                    <li><i className="fa-brands fa-square-github"></i></li>
+                    <li><i className="fa-brands fa-square-instagram"></i></li>
+                    <li><i className="fa-brands fa-square-facebook"></i></li>
                 </ul>
             
         </div>

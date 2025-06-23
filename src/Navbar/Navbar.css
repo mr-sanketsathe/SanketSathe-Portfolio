@@ -8,6 +8,9 @@
   background-color:#161513;
   z-index:1;
 }
+.menu-btn {
+  display: none;
+}
 .logo{
   width:10%;
   height:100%;
@@ -34,8 +37,11 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-  /* background-color: red; */
+
+  transition: opacity 0.3s ease, color 0.3s ease;
 }
+
+
 .nav-link:after{
   content:'';
   width:0%;
@@ -77,3 +83,48 @@
   transform: scale(1.05);
 }
 
+@media(max-width:820px){
+  .Navbar{
+    width:50%;
+    height:100vh;
+    flex-direction: column;
+    border: 1px solid black;
+    position:fixed;
+    overflow-y: auto;
+    transition: left 0.5s ease;
+    left: 0;
+  }
+
+  .Nav-Collapse{
+    transition: left 0.5s ease;
+    position: absolute;
+    left:-50%;
+   
+  }
+  .menu-btn{
+    display: inline;
+    position:fixed;
+    top:0;
+    left:0;
+    font-size: 1.5rem;
+    left:1rem;
+    top:1rem;
+    z-index: 99;
+   
+  }
+  .logo{
+    display: none;
+  }
+
+  .nav-menu{
+    flex-direction: column;
+    margin-top: 4rem;
+    font-size: 1.2rem;
+  }
+  .connect-btn{
+    display: none;
+  }
+}
+
+
+  

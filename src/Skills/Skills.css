@@ -9,11 +9,6 @@
     gap:2rem;
 }
 
-.heading{
-    position: absolute;
-    top:10%;
-
-}
 .skills{
     display: flex;
     gap:30px;
@@ -121,4 +116,23 @@
 .icons{
     width:3rem;
     height:3rem;  
+}
+
+@media(max-width:768px){
+    .skills{
+        flex-direction: column;
+        border:1px solid white;
+        height: max-content;
+    }
+    .programing-lang{
+        margin-top:20%;
+        width:max-content;
+        height: max-content;
+        padding: 1rem;
+    }
+    .Web-dev{
+        width:max-content;
+        height: max-content;
+        padding: 1rem;
+    }
 }

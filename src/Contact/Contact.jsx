@@ -33,9 +33,9 @@ function Contact() {
             <div className="Contact-details">
                 <h2 className="contact-details-heading"> Let's talk</h2>
                 <p className='current-status'>I'm currently available to take on new project,so feel free to to send me a message about anything that you want me to work on.You can contact anythime</p>
-                <p className='email'><i class="fa-regular fa-envelope"></i>sanketsathe198@gmail.com</p>
-                <p className="mobile-no"><i class="fa-solid fa-phone-volume"></i> +919322962717</p>
-                <p className="location"><i class="fa-solid fa-location-dot"></i>Raigad,Maharashtra,India</p>
+                <p className='email'><i className="fa-regular fa-envelope"></i>sanketsathe198@gmail.com</p>
+                <p className="mobile-no"><i className="fa-solid fa-phone-volume"></i> +919322962717</p>
+                <p className="location"><i className="fa-solid fa-location-dot"></i>Raigad,Maharashtra,India</p>
             </div>
             <form  onSubmit={onSubmit}className="Contact-form">
                 <label htmlFor=''>You Name</label>
