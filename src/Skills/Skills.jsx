@@ -1,52 +1,69 @@
 import React from 'react';
-import './Skills.css'
+import './Skills.css';
+
 function Skill() {
+    const programmingSkills = [
+        { name: 'Python', level: 90 },
+        { name: 'Java', level: 75 },
+        { name: 'JavaScript', level: 80 },
+        { name: 'SQL', level: 70 },
+    ];
+
+    const webDevSkills = [
+        { name: 'HTML5 & CSS3', level: 95 },
+        { name: 'Bootstrap', level: 85 },
+        { name: 'Tailwind CSS', level: 80 },
+        { name: 'React.js', level: 85 },
+        { name: 'Node.js', level: 75 },
+        { name: 'Express.js', level: 70 },
+        { name: 'MongoDB', level: 80 },
+    ];
+
+    const tools = [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg",
+    ];
+
     return (
-        <div id='Skills-section' className="Skills-section">
-            <div className="skills">
-                <div className="programing-lang">
-                    <h4 className="title">Programing Language</h4>
-                    <ul className="lang-list">
-                        <li>Python <div className="progress-bar"></div></li>
-                        <li>Java <div className="progress-bar"></div></li>
-                        <li>Javacript <div className="progress-bar"></div></li>
-                        <li>SQL <div className="progress-bar"></div></li>
-                    </ul>
+        <section id='Skills-section' className="Skills-section">
+            <h2 className="skills-heading">My Skills</h2>
+            <div className="skills-grid">
+                <div className="skills-card">
+                    <h3>Programming Languages</h3>
+                    {programmingSkills.map((skill, index) => (
+                        <div className="skill-item" key={index}>
+                            <span>{skill.name}</span>
+                            <div className="progress-bar">
+                                <div className="progress-fill" style={{ width: `${skill.level}%` }}></div>
+                            </div>
+                        </div>
+                    ))}
                 </div>
-                <div className="Web-dev">
-                    <h4 className="title">Web Development</h4>
-                    <ul className="web-dev-list">
-                        <li>Html5,Css3 <div className="progress-bar"></div></li>
-                        <li>Bootstrap  <div className="progress-bar"></div></li>
-                        <li>Tailwind   <div className="progress-bar"></div></li>
-                        <li>React.js   <div className="progress-bar"></div></li>
-                        <li>Node.js    <div className="progress-bar"></div></li>
-                        <li>Express.js <div className="progress-bar"></div></li>
-                        <li>MongoDB    <div className="progress-bar"></div></li>
-                    </ul>
+
+                <div className="skills-card">
+                    <h3>Web Development</h3>
+                    {webDevSkills.map((skill, index) => (
+                        <div className="skill-item" key={index}>
+                            <span>{skill.name}</span>
+                            <div className="progress-bar">
+                                <div className="progress-fill" style={{ width: `${skill.level}%` }}></div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+
+                <div className="skills-card tools-card">
+                    <h3>Tools I Use</h3>
+                    <div className="tools-list">
+                        {tools.map((icon, index) => (
+                            <img className="tool-icon" src={icon} key={index} alt="tool" />
+                        ))}
+                    </div>
                 </div>
             </div>
-            <div className="tools">
-                <p className="title"> Used Tools </p>
-                <ul className="tools-list">
-                    <li>
-                        <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-                    </li>
-                    <li>
-                        <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
-                    </li>
-                    <li>
-                        <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
-                    </li>
-                    <li>
-
-                        <img className='icons' src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
-
-                    </li>
-
-                </ul>
-            </div>
-        </div>
+        </section>
     );
 }
 

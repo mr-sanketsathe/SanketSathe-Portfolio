@@ -37,7 +37,6 @@
   align-items: center;
   justify-content: center;
   border-radius: 20px;
-
   transition: opacity 0.3s ease, color 0.3s ease;
 }
 
@@ -65,10 +64,10 @@
 
 
 .connect-btn{
-  width:150px; 
-  height:50px;
+  width:130px; 
+  height:40px;
   border-radius:50px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   margin-right:2rem;
   background: linear-gradient(267deg, #DA7C25 0.36%,#B932E1 102.05%);
   display: flex;
@@ -76,6 +75,7 @@
   justify-content: center;
   cursor: pointer;
   transition: 0.5s;
+  gap:0.5rem;
   
 }
 

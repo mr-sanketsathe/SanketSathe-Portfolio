@@ -1,77 +1,88 @@
-.Projects{
-    width:100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-
+.Projects {
+  min-height: 100vh;
+  padding: 4rem 2rem;
+  background: #161513;
+  color: white;
+  text-align: center;
+  padding-top:10%;
 }
 
-.project-heading{
-    position: absolute;
-    top:10%;
-    left:45%;
-    
-    
+.project-heading {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B932E1 102.05%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.Projects-list{
-    display:inline-flex;
-    flex-wrap: wrap;
-    width:90%;
-    height:70%;
-    margin-top:1rem;
-    justify-content: center;
-    gap:1.5rem;
-}
-.Project{
-    width:40%;
-    height:40%;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    margin-top:1rem;
-    border-radius: 50px;
-    padding: 1rem;
-    position: relative;
-    transition: 0.5s ease;
-}
-.Project:hover{
-    transform: scale(1.05);
-    border: 1px solid gray;
-}
-.Project-name{
-    font-size:1.5rem;
-    font-weight: 500;
-    margin:0.5rem 1.2rem;
-}
-.Project-desc{
-    width: fit-content;
-    height: max-content;
-    font-size:1rem;
-    opacity: 0.7;
-    margin-left: 1rem;
-    text-align: justify;
-    line-height: 1.5;
+.Projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
 }
 
-.view-Project{
-    width:100px; 
-    height:50px;
-    font-size:1.2rem;
-    background-color: #161513;
-    border: 1px solid white;
-    border-radius: 30px;
-    color:white;
-    position: absolute;
-    right: 10%;
-    bottom: 10%;
-    transition: 0.5s ease;
-    cursor: pointer;
-    opacity: 0.6;
+.Project-card {
+  background-color: #1f1d1d;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+  max-width: 400px;
 }
 
-.view-Project:hover{
-    transform: scale(1.05);
-    opacity: 1;
+.Project-card:hover {
+  transform: scale(1.03);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1rem;
+}
+
+.Project-name {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.Project-desc {
+  font-size: 1rem;
+  opacity: 0.75;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-links a {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  background: linear-gradient(267deg, #DA7C25 0.36%, #B932E1 102.05%);
+  color: white;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+.project-links a:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Padding */
+@media (max-width: 768px) {
+  .Projects {
+    padding: 3rem 1rem;
+  }
+  .project-heading {
+    font-size: 2rem;
+  }
 }

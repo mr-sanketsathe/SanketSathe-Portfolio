@@ -6,6 +6,7 @@ import Skills from './Skills/Skills'
 import Projects from './Projects/Projects'
 import Education from './Education/Education'
 import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <Projects/>
     <Education/>
     <Contact/>
+    <Footer/>
     </>
   )
 }
