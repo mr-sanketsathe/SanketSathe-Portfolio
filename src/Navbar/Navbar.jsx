@@ -14,7 +14,7 @@ function Navbar() {
        <ul className="nav-menu">
          <a onClick={handleSidebar} href="#Home" className='nav-link'>Home</a>
          <a  onClick={handleSidebar} href="#About"  className='nav-link'>About me</a>
-        <a onClick={handleSidebar} href="#Skills-section"  className='nav-link'>Skills</a>
+        <a onClick={handleSidebar} href="#Skills"  className='nav-link'>Skills</a>
          <a onClick={handleSidebar} href="#Projects"  className='nav-link'>Projects</a>
         <a  onClick={handleSidebar}href="#Education"  className='nav-link'>Education</a>
          <a onClick={handleSidebar} href="#Contact" className='nav-link'>Contact</a>
