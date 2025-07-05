@@ -8,11 +8,11 @@
     position: relative;
     background: linear-gradient(145deg, #0e0d0d, #1a1919);
     color: #fff;
-    overflow: hidden;
 }
 
 .home-content {
-    max-width: 800px;
+
+    max-width:800px;
     animation: fadeInUp 1s ease forwards;
 }
 
@@ -38,7 +38,7 @@
 
 .name {
     background: linear-gradient(267deg, #DA7C25 0.36%, #B932E1 102.05%);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
