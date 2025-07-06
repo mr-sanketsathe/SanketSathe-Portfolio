@@ -5,7 +5,7 @@ const projectData = [
   {
     name: "Gemini Clone",
     description: "An interactive AI chatbot built with React.js and the Gemini API. It replicates the Gemini chat UI and supports real-time user queries with a smooth UX.",
-    image: "https://images.unsplash.com/photo-1528721071427-cab7de8e8050?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "./image.png",
     live: "https://gemini-clone-roan-nine.vercel.app/", 
     github: "https://github.com/mr-sanketsathe/Gemini-Clone"
   },
