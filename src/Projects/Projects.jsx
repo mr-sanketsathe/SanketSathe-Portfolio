@@ -10,11 +10,11 @@ const projectData = [
     github: "https://github.com/mr-sanketsathe/Gemini-Clone"
   },
   {
-    name: "demo2",
-    description:" An interactive AI chatbot built with React.js and the Gemini API. It replicates the Gemini chat UI and supports real-time user queries with a smooth UX.",
-    image: "https://images.unsplash.com/photo-1528721071427-cab7de8e8050?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    live: "#",
-    github: "#"
+    name: "Wonderlust-airbnb replica",
+    description:"A responsive vacation rental platform built with modern web tech. It replicates Airbnb’s core features like adding/editing listings, interactive map view, and user reviews — all with a clean, intuitive UI.",
+    image: "./Airbnb.png",
+    live: "https://wonderlust-v0r0.onrender.com/",
+    github: "https://github.com/mr-sanketsathe/WonderLust"
   },
   {
     name: "demo3",
