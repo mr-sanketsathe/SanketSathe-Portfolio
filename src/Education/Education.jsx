@@ -13,13 +13,13 @@ function Education() {
       degree: "Higher Secondary Education (HSC) - Science",
       institution: "D G Tatakare Junior College, Kolad",
       year: "2020 - 2022",
-      score: "55.46%"
+      score: "55.50%"
     },
     {
       degree: "Secondary School Certificate (SSC)",
       institution: "D G Tatakare Vidhyalay, Sutarwadi",
       year: "2019 - 2020",
-      score: "79.46%"
+      score: "79.60%"
     }
   ];
 
