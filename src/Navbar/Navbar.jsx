@@ -10,7 +10,6 @@ function Navbar() {
   return ( 
     <div  className={`Navbar ${!collapse?'Nav-Collapse':''}`}>
       <div onClick={handleSidebar}className="menu-btn">{collapse?<i className=" fa-solid fa-xmark "></i>:<i className="fa-solid fa-bars"></i>}</div>
-      <img src={logo} alt="" className="logo" />
        <ul className="nav-menu">
          <a onClick={handleSidebar} href="#Home" className='nav-link'>Home</a>
          <a  onClick={handleSidebar} href="#About"  className='nav-link'>About me</a>
@@ -19,7 +18,7 @@ function Navbar() {
         <a  onClick={handleSidebar}href="#Education"  className='nav-link'>Education</a>
          <a onClick={handleSidebar} href="#Contact" className='nav-link'>Contact</a>
       </ul>
-      <div className="connect-btn"><i className="fa-solid fa-download"></i>CV</div>
+      <div className="connect-btn"><a href="./SanketSathe.pdf" download="Sanket_Sathe_Resume.pdf"><i className="fa-solid fa-download">CV</i></a></div>
     </div>
    );
 }

@@ -8,7 +8,6 @@ function About() {
             <h2 className="About-heading">About me</h2>
             <div className="about-content">
                 <img src={profile} alt="Sanket Sathe" className="profile" />
-
                 <div className="about-text">
                     <p className="self-desc">
                         I'm an aspiring <strong>Full Stack Developer</strong> passionate about Web Development & Artificial Intelligence.
@@ -19,11 +18,11 @@ function About() {
                     </p>
 
                     <ul className="social-media">
-                        <li><a href="#"><i className="fa-brands fa-linkedin"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-github"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-instagram"></i></a></li>
-                        <li><a href="#"><i className="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/sanket-sathe-654347362/"><i className="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/mr-sanketsathe"><i className="fa-brands fa-github"></i></a></li>
+                        <li><a href="https://www.instagram.com/itzs_sanket?igsh=MTVzeG16OWF1NTIzMg=="> <i className="fa-brands fa-instagram"></i></a></li>
                     </ul>
+                
                 </div>
             </div>
         </section>

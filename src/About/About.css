@@ -71,7 +71,6 @@
     transform: scale(1.1);
     opacity: 1;
 }
-
 @keyframes fadeIn {
     0% {
         opacity: 0;
@@ -103,4 +102,5 @@
     .self-desc {
         font-size: 1rem;
     }
+   
 }

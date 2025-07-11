@@ -3,32 +3,25 @@ import './Projects.css';
 
 const projectData = [
   {
-    name: "Gemini Clone",
+    name: "Gemini clone (AI chatbot)",
     description: "An interactive AI chatbot built with React.js and the Gemini API. It replicates the Gemini chat UI and supports real-time user queries with a smooth UX.",
     image: "./image.png",
     live: "https://gemini-clone-roan-nine.vercel.app/", 
     github: "https://github.com/mr-sanketsathe/Gemini-Clone"
   },
   {
-    name: "Wonderlust-airbnb replica",
+    name: "Wonderlust(airbnb replica)",
     description:"A responsive vacation rental platform built with modern web tech. It replicates Airbnb’s core features like adding/editing listings, interactive map view, and user reviews — all with a clean, intuitive UI.",
     image: "./Airbnb.png",
     live: "https://wonderlust-v0r0.onrender.com/",
     github: "https://github.com/mr-sanketsathe/WonderLust"
   },
   {
-    name: "demo3",
-    description: "An interactive AI chatbot built with React.js and the Gemini API. It replicates the Gemini chat UI and supports real-time user queries with a smooth UX.",
-    image: "https://images.unsplash.com/photo-1528721071427-cab7de8e8050?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://via.placeholder.com/400x200?text=Zerodha+Clone",
-    live: "#",
-    github: "#"
-  },
-  {
-    name: "demo4",
-    description: "An interactive AI chatbot built with React.js and the Gemini API. It replicates the Gemini chat UI and supports real-time user queries with a smooth UX.",
-    image: "https://images.unsplash.com/photo-1528721071427-cab7de8e8050?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    live: "#",
-    github: "#"
+    name: "Zerodha clone (stock trading app)",
+    description: "A stock trading platform built with React.js, Node.js, and MongoDB, inspired by Zerodha. It replicates the core features of stock platforms, including user authentication, buy/sell functions, and a real-time trading dashboard with a clean UI.",
+    image: "./zerodha.png",
+    live: "https://zerodha-clone-tau-seven.vercel.app",
+    github: "https://github.com/mr-sanketsathe/Zerodha-Clone"
   }
 ];
 

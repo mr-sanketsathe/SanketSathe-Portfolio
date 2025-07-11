@@ -11,17 +11,13 @@
 .menu-btn {
   display: none;
 }
-.logo{
-  width:10%;
-  height:100%;
-  margin-left:2rem;
 
-}
 .nav-menu{
   list-style: none;
   display: flex;
   gap:10px;
   font-size:1rem;
+  margin-left:3rem;
   
 }
 .nav-link{
@@ -38,6 +34,7 @@
   justify-content: center;
   border-radius: 20px;
   transition: opacity 0.3s ease, color 0.3s ease;
+  gap:1rem;
 }
 
 
@@ -99,7 +96,6 @@
     transition: left 0.5s ease;
     position: absolute;
     left:-50%;
-   
   }
   .menu-btn{
     display: inline;
@@ -120,9 +116,10 @@
     flex-direction: column;
     margin-top: 4rem;
     font-size: 1.2rem;
+    margin-left: 1rem;
   }
   .connect-btn{
-    display: none;
+    margin-bottom: 5rem;
   }
 }
 

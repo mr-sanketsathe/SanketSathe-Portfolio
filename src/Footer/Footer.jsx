@@ -7,18 +7,16 @@ function Footer() {
             <div className="footer-content">
                 <p className="footer-text">© {new Date().getFullYear()} Sanket Sathe. All rights reserved.</p>
                 <div className="footer-icons">
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/sanket-sathe-654347362/" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-linkedin"></i>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/mr-sanketsathe" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-github"></i>
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/itzs_sanket?igsh=MTVzeG16OWF1NTIzMg==" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="#">
-                        <i className="fa-solid fa-envelope"></i>
-                    </a>
+                   
                 </div>
             </div>
         </footer>

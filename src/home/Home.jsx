@@ -17,6 +17,7 @@ function Home() {
                 <div className="home-connect">
                     <a href="#Contact">Connect with me</a>
                 </div>
+                
             </div>
 
             <span className="home-arrow">
