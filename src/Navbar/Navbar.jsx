@@ -18,7 +18,7 @@ function Navbar() {
         <a  onClick={handleSidebar}href="#Education"  className='nav-link'>Education</a>
          <a onClick={handleSidebar} href="#Contact" className='nav-link'>Contact</a>
       </ul>
-      <div className="connect-btn"><a href="./SanketSathe.pdf" download="Sanket_Sathe_Resume.pdf"><i className="fa-solid fa-download">CV</i></a></div>
+      <div className="connect-btn"><a href="./SanketSathe_Resume.pdf" download="SanketSathe_Resume.pdf"><i className="fa-solid fa-download">CV</i></a></div>
     </div>
    );
 }

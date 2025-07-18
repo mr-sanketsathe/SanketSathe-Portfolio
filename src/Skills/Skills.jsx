@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava } from 'react-icons/fa';
 import { SiExpress, SiMongodb, SiPython, SiMysql } from 'react-icons/si';
-import { SiGit, SiDocker, SiFigma } from 'react-icons/si';
+import { SiGit, SiDocker} from 'react-icons/si';
 
 
 const skills = [
@@ -23,9 +23,8 @@ const Tools=[
         name:'Git',icon:<SiGit/>
     } ,{
         name:'Docker',icon:<SiDocker/>
-    }, {
-        name:'Figma',icon:<SiFigma/>
-    }
+    },
+
 ];
 
 function Skills() {
