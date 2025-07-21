@@ -27,10 +27,7 @@ Live Site 👉
   react
 ---
 
-## 🖼️ Preview
 
 
-
----
 
 
