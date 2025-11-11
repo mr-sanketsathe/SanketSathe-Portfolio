@@ -66,7 +66,137 @@
     opacity: 0.7;
 }
 
-.social-media li a:hover {
+.social-media li a:hover {.Projects {
+  min-height: 100vh;
+  padding: 6rem 2rem;
+  background: #161513;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+}
+
+.project-heading {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b932e1 102.05%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Projects-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  justify-items: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.Project-card {
+  background-color: #1f1d1d;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid transparent;
+}
+
+.Project-card:hover {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.project-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-info {
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.Project-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #fff;
+}
+
+.Project-desc {
+  font-size: 1rem;
+  opacity: 0.8;
+  text-align: justify;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.project-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.project-links a {
+  padding: 0.5rem 1.2rem;
+  border-radius: 25px;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b932e1 102.05%);
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.project-links a:hover {
+  transform: scale(1.05);
+  background: linear-gradient(267deg, #b932e1 0.36%, #da7c25 102.05%);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .Projects {
+    padding: 4rem 1.5rem;
+  }
+
+  .project-heading {
+    font-size: 2rem;
+  }
+
+  .project-img {
+    height: 180px;
+  }
+
+  .Project-desc {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Projects-list {
+    grid-template-columns: 1fr;
+  }
+
+  .Project-card {
+    max-width: 100%;
+  }
+
+  .Project-name {
+    font-size: 1.1rem;
+  }
+}
+
     color: #B932E1;
     transform: scale(1.1);
     opacity: 1;

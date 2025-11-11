@@ -116,3 +116,26 @@
     align-items: center;
   }
 }
+ /* --- Animation Enhancements --- */
+.Contact-section {
+  overflow: hidden;
+}
+
+/* Make icons animate slightly */
+.contact-info i {
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-info p:hover i {
+  color: #B932E1;
+  transform: scale(1.2);
+}
+
+/* Smooth glow hover for button */
+.Submit {
+  box-shadow: 0 0 10px rgba(218, 124, 37, 0.4);
+}
+
+.Submit:hover {
+  box-shadow: 0 0 18px rgba(185, 50, 225, 0.6);
+}

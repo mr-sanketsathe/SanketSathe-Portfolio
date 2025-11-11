@@ -1,12 +1,13 @@
 .Education-section {
   min-height: 100vh;
-  padding:5% 5%;
+  padding: 5% 5%;
   background-color: #161513;
   color: white;
   position: relative;
-
+  overflow: hidden;
 }
 
+/* Heading */
 .education-heading {
   text-align: center;
   font-size: 2.5rem;
@@ -14,64 +15,102 @@
   background: linear-gradient(267deg, #DA7C25 0.36%, #B932E1 102.05%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
 }
 
+/* Timeline Line */
 .timeline {
   position: relative;
   margin: auto;
   max-width: 800px;
-  padding-left: 20px;
+  padding-left: 30px;
   border-left: 2px solid rgba(255, 255, 255, 0.1);
 }
 
+/* Timeline Items */
 .timeline-item {
   position: relative;
   padding: 1rem 1rem 2rem 2rem;
 }
 
+/* Dots */
 .timeline-dot {
   position: absolute;
   left: -10px;
   top: 20px;
-  width: 14px;
-  height: 14px;
+  width: 16px;
+  height: 16px;
   background: linear-gradient(267deg, #DA7C25 0.36%, #B932E1 102.05%);
   border-radius: 50%;
+  box-shadow: 0 0 10px rgba(185, 50, 225, 0.5);
 }
 
+/* Card Content */
 .timeline-content {
   background-color: #1f1d1d;
   border-radius: 1rem;
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  padding: 1.2rem 1.5rem;
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.05);
   transition: 0.3s ease;
 }
 
 .timeline-content:hover {
-  transform: scale(1.02);
+  box-shadow: 0 8px 25px rgba(218, 124, 37, 0.2);
 }
 
+/* Text */
 .education-degree {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
+  color: #fff;
 }
 
 .education-college,
 .education-year,
 .education-score {
   font-size: 0.95rem;
-  opacity: 0.75;
+  opacity: 0.8;
   margin: 0.3rem 0;
+}
+
+/* Glow Line Animation */
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -1px;
+  width: 3px;
+  height: 100%;
+  background: linear-gradient(to bottom, #DA7C25, #B932E1);
+  animation: glowLine 6s linear infinite;
+  opacity: 0.2;
+}
+
+@keyframes glowLine {
+  0% {
+    opacity: 0.2;
+    height: 0;
+  }
+  50% {
+    opacity: 1;
+    height: 100%;
+  }
+  100% {
+    opacity: 0.2;
+    height: 0;
+  }
 }
 
 /* Responsive */
 @media (max-width: 768px) {
   .timeline {
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   .timeline-dot {
     left: -8px;
+    width: 12px;
+    height: 12px;
   }
 
   .education-degree {
@@ -80,5 +119,9 @@
 
   .education-heading {
     font-size: 2rem;
+  }
+
+  .timeline-content {
+    padding: 1rem;
   }
 }

@@ -3,7 +3,7 @@ import logo from '../assets/logo2.png';
 import './Navbar.css'
 import { useState,useEffect } from 'react';
 function Navbar() {
-  let[collapse,setCollapse]=useState(true);
+  let[collapse,setCollapse]=useState(false);
   let handleSidebar=()=>{
     setCollapse((curr)=>!curr);
   }
