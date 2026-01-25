@@ -15,6 +15,7 @@ import {
   SiMysql,
   SiGit,
   SiDocker,
+  SiDjango
 } from "react-icons/si";
 import "./Skills.css";
 
@@ -29,6 +30,8 @@ const skills = [
   { name: "Python", icon: <SiPython /> },
   { name: "MongoDB", icon: <SiMongodb /> },
   { name: "SQL", icon: <SiMysql /> },
+  { name: "Django", icon: <SiDjango /> },
+
 ];
 
 const tools = [
